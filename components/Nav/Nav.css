@@ -1,0 +1,130 @@
+#nav {
+    display: flex;
+    justify-content: space-between;
+
+    & .brand {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;    
+
+        & .ham {
+   
+            width: 40px;
+            height: 40px;
+            border-radius: 100%;
+            display: flex;
+            cursor: pointer;
+
+            & img {
+                width: 34px;
+                height: 34px;
+                margin: auto;
+            }
+        }
+
+        & .ham:hover {
+            background-color: #f2f2f2;
+        }
+
+        & .logo {
+     
+            & img {
+            height: 34px;
+            margin: auto;
+            }
+        }
+        
+    }
+
+    & .center {
+        width: 732px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+  
+        
+        & .search {
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          
+
+            & .search-box { 
+                width: 514px;
+                height: 100%;
+                border: 1px solid #ccc;
+                border-radius: 40px 0 0 40px;
+                overflow: hidden;
+
+             
+                & .search-input {
+                    width: 100%;
+                    margin-left: 20px;
+                    height: 100%;
+                    border: none;
+                    overflow: hidden;
+                }
+
+                & .search-input:focus{
+                    outline: none;
+                    border: none;
+                }
+            }
+
+            & .btn {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 60px;
+                height: 100%;
+                background-color: #f8f8f8;
+                border: 1px solid #ccc;
+                border-radius: 0 40px 40px 0;
+                cursor: pointer;
+                border-left: none;
+            }
+            
+            & .voice {
+                width: 40px;
+                height:40px;
+                border: 1px solid #f8f8f8;
+                border-radius: 40px;
+                background-color: #ccc;
+                margin-left: 20px;
+                cursor: pointer;
+            }
+
+        }
+
+    }
+    
+
+    & .end {
+      
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+
+        & .end-item {
+            margin: 0 15px;
+
+            & img {
+                width: 34px;
+                height: 34px;
+                margin: auto;
+            }
+
+        }
+
+        & div:nth-of-type(3) {
+            & img {
+            border-radius: 40px;
+            }
+         }
+
+       
+    }
+}
+
