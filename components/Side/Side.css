@@ -12,6 +12,7 @@
         justify-content: start;
     
         & .item-side {
+            cursor: pointer;
             display: flex;
             width: 90%;
             align-items: center;

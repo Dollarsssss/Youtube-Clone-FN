@@ -10,6 +10,7 @@
             grid-template-columns: 1fr 1fr 1fr;
 
             & .item-content {
+                cursor: pointer;
                 width: 400px;    
                 margin: 15px 0;
 
