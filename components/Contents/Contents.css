@@ -15,8 +15,10 @@
                 margin: 15px 0;
 
                 & .img-cover {
-                    
+              
                     & img {
+                        width: 400px; 
+                        height: 231px;
                         border-radius: 10px;
                     }
                 }
@@ -28,6 +30,8 @@
         
                     & .img-channel {
                         & img {
+                            width: 36px;
+                            height: 36px;
                             border-radius: 50%;
                         }
                     }

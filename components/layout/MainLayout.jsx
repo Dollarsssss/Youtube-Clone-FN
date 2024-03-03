@@ -5,9 +5,9 @@ import Nav from '../Nav/Nav'
 function MainLayout() {
   return (
    <section id="main-layout">
-    <Nav></Nav>
-    <Contents></Contents>
-    <Side></Side>
+    <Nav/>
+    <Contents />
+    <Side/>
    </section>
   )
 }
